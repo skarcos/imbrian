@@ -1,7 +1,5 @@
 # imbrian
-Connect to multiple VM Consoles at once and send text or KEYs to all of them at once. 
-
-Consoles are actually screenshots but you can refresh as often as you want.
+Get console screenshots from multiple VMs at once and send text or KEY strokes to all of them at once. 
 
 ## Prerequisites
 * Install Python 3
