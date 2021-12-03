@@ -14,6 +14,10 @@ from PIL import Image, ImageTk
 # https://www.usb.org/sites/default/files/documents/hut1_12v2.pdf
 # The one below is actually referred to as "Left GUI" not "WINDOWS"
 HIDCODE.append(('KEY_WINDOWS', '0xe3', [('', [])]), )
+HIDCODE.append(('KEY_UP', '0x52', [('', [])]), )
+HIDCODE.append(('KEY_DOWN', '0x51', [('', [])]), )
+HIDCODE.append(('KEY_LEFT', '0x50', [('', [])]), )
+HIDCODE.append(('KEY_RIGHT', '0x4F', [('', [])]), )
 
 
 def get_args():
